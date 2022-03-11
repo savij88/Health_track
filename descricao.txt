@@ -1,0 +1,364 @@
+Last login: Fri Mar 11 00:04:13 on ttys000
+MacBook-Pro:~ Jessica$ git init /Users/Jessica/Desktop/Heath_\ track 
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/Jessica/Desktop/Heath_ track/.git/
+MacBook-Pro:~ Jessica$ git commit -m "commit inicial"
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    Desktop/Projeto/contato.txt
+	deleted:    Desktop/Projeto/index.txt
+	deleted:    Desktop/Projeto/texto_teste.txt
+	modified:   Desktop/ativ cap5/image/alimento.jpg
+	modified:   Desktop/ativ cap5/image/cabecalho.jpg
+	modified:   Desktop/ativ cap5/image/logo.png
+	modified:   Desktop/ativ cap5/image/pexels-cottonbro-4761352 - cópia.jpg
+	modified:   Desktop/ativ cap5/image/pexels-cottonbro-4761352.jpg
+	modified:   Desktop/ativ cap5/image/treino.jpg
+	modified:   Desktop/ativ cap5/image/treinofundo.jpg
+	modified:   Desktop/ativ cap5/inscrevase.html
+	modified:   Desktop/ativ cap5/login.html
+	modified:   Desktop/ativ cap5/paginainicial.html
+	modified:   Desktop/ativ cap5/recursos.html
+	deleted:    Desktop/ativ_cap5/image/alimento.jpg
+	deleted:    Desktop/ativ_cap5/image/cabecalho.jpg
+	deleted:    Desktop/ativ_cap5/image/logo.png
+	deleted:    Desktop/ativ_cap5/image/pexels-cottonbro-4761352 - cópia.jpg
+	deleted:    Desktop/ativ_cap5/image/pexels-cottonbro-4761352.jpg
+	deleted:    Desktop/ativ_cap5/image/treino.jpg
+	deleted:    Desktop/ativ_cap5/image/treinofundo.jpg
+	deleted:    Desktop/ativ_cap5/inscrevase.html
+	deleted:    Desktop/ativ_cap5/login.html
+	deleted:    Desktop/ativ_cap5/paginainicial.html
+	deleted:    Desktop/ativ_cap5/recursos.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.Trash/
+	.aplicativoitau/
+	.bash_history
+	.bash_sessions/
+	.cache/
+	.eclipse/
+	.gitconfig
+	.idlerc/
+	.oracle_jre_usage/
+	.oraclesqldeveloperdatamodeler/
+	.p2/
+	.sqldeveloper/
+	.ssh/
+	.viminfo
+	.vscode/
+	Applications/
+	Desktop/Heath_ track/
+	Documents/
+	Downloads/
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Projeto/
+	Public/
+	PycharmProjects/
+	eclipse-workspace/
+	iCloud Drive (Arquivo) - 1/
+	iCloud Drive (Arquivo)/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+MacBook-Pro:~ Jessica$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    Desktop/Projeto/contato.txt
+	deleted:    Desktop/Projeto/index.txt
+	deleted:    Desktop/Projeto/texto_teste.txt
+	deleted:    Desktop/ativ cap5/image/alimento.jpg
+	deleted:    Desktop/ativ cap5/image/cabecalho.jpg
+	deleted:    Desktop/ativ cap5/image/logo.png
+	deleted:    Desktop/ativ cap5/image/pexels-cottonbro-4761352 - cópia.jpg
+	deleted:    Desktop/ativ cap5/image/pexels-cottonbro-4761352.jpg
+	deleted:    Desktop/ativ cap5/image/treino.jpg
+	deleted:    Desktop/ativ cap5/image/treinofundo.jpg
+	deleted:    Desktop/ativ cap5/inscrevase.html
+	deleted:    Desktop/ativ cap5/login.html
+	deleted:    Desktop/ativ cap5/paginainicial.html
+	deleted:    Desktop/ativ cap5/recursos.html
+	deleted:    Desktop/ativ_cap5/image/alimento.jpg
+	deleted:    Desktop/ativ_cap5/image/cabecalho.jpg
+	deleted:    Desktop/ativ_cap5/image/logo.png
+	deleted:    Desktop/ativ_cap5/image/pexels-cottonbro-4761352 - cópia.jpg
+	deleted:    Desktop/ativ_cap5/image/pexels-cottonbro-4761352.jpg
+	deleted:    Desktop/ativ_cap5/image/treino.jpg
+	deleted:    Desktop/ativ_cap5/image/treinofundo.jpg
+	deleted:    Desktop/ativ_cap5/inscrevase.html
+	deleted:    Desktop/ativ_cap5/login.html
+	deleted:    Desktop/ativ_cap5/paginainicial.html
+	deleted:    Desktop/ativ_cap5/recursos.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.Trash/
+	.aplicativoitau/
+	.bash_history
+	.bash_sessions/
+	.cache/
+	.eclipse/
+	.gitconfig
+	.idlerc/
+	.oracle_jre_usage/
+	.oraclesqldeveloperdatamodeler/
+	.p2/
+	.sqldeveloper/
+	.ssh/
+	.viminfo
+	.vscode/
+	Applications/
+	Desktop/Heath_ track/
+	Documents/
+	Downloads/
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Projeto/
+	Public/
+	PycharmProjects/
+	eclipse-workspace/
+	iCloud Drive (Arquivo) - 1/
+	iCloud Drive (Arquivo)/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+MacBook-Pro:~ Jessica$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    Desktop/Projeto/contato.txt
+	deleted:    Desktop/Projeto/index.txt
+	deleted:    Desktop/Projeto/texto_teste.txt
+	deleted:    Desktop/ativ cap5/image/alimento.jpg
+	deleted:    Desktop/ativ cap5/image/cabecalho.jpg
+	deleted:    Desktop/ativ cap5/image/logo.png
+	deleted:    Desktop/ativ cap5/image/pexels-cottonbro-4761352 - cópia.jpg
+	deleted:    Desktop/ativ cap5/image/pexels-cottonbro-4761352.jpg
+	deleted:    Desktop/ativ cap5/image/treino.jpg
+	deleted:    Desktop/ativ cap5/image/treinofundo.jpg
+	deleted:    Desktop/ativ cap5/inscrevase.html
+	deleted:    Desktop/ativ cap5/login.html
+	deleted:    Desktop/ativ cap5/paginainicial.html
+	deleted:    Desktop/ativ cap5/recursos.html
+	deleted:    Desktop/ativ_cap5/image/alimento.jpg
+	deleted:    Desktop/ativ_cap5/image/cabecalho.jpg
+	deleted:    Desktop/ativ_cap5/image/logo.png
+	deleted:    Desktop/ativ_cap5/image/pexels-cottonbro-4761352 - cópia.jpg
+	deleted:    Desktop/ativ_cap5/image/pexels-cottonbro-4761352.jpg
+	deleted:    Desktop/ativ_cap5/image/treino.jpg
+	deleted:    Desktop/ativ_cap5/image/treinofundo.jpg
+	deleted:    Desktop/ativ_cap5/inscrevase.html
+	deleted:    Desktop/ativ_cap5/login.html
+	deleted:    Desktop/ativ_cap5/paginainicial.html
+	deleted:    Desktop/ativ_cap5/recursos.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.Trash/
+	.aplicativoitau/
+	.bash_history
+	.bash_sessions/
+	.cache/
+	.eclipse/
+	.gitconfig
+	.idlerc/
+	.oracle_jre_usage/
+	.oraclesqldeveloperdatamodeler/
+	.p2/
+	.sqldeveloper/
+	.ssh/
+	.viminfo
+	.vscode/
+	Applications/
+	Desktop/Heath_ track/
+	Documents/
+	Downloads/
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Projeto/
+	Public/
+	PycharmProjects/
+	eclipse-workspace/
+	iCloud Drive (Arquivo) - 1/
+	iCloud Drive (Arquivo)/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+MacBook-Pro:~ Jessica$ git add /Users/Jessica/Desktop/Heath_\ track/inscrevase.html /Users/Jessica/Desktop/Heath_\ track/login.html /Users/Jessica/Desktop/Heath_\ track/paginainicial.html /Users/Jessica/Desktop/Heath_\ track/recursos.html 
+MacBook-Pro:~ Jessica$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    Desktop/Projeto/contato.txt
+	deleted:    Desktop/Projeto/index.txt
+	deleted:    Desktop/Projeto/texto_teste.txt
+	deleted:    Desktop/ativ cap5/image/alimento.jpg
+	deleted:    Desktop/ativ cap5/image/cabecalho.jpg
+	deleted:    Desktop/ativ cap5/image/logo.png
+	deleted:    Desktop/ativ cap5/image/pexels-cottonbro-4761352 - cópia.jpg
+	deleted:    Desktop/ativ cap5/image/pexels-cottonbro-4761352.jpg
+	deleted:    Desktop/ativ cap5/image/treino.jpg
+	deleted:    Desktop/ativ cap5/image/treinofundo.jpg
+	deleted:    Desktop/ativ cap5/inscrevase.html
+	deleted:    Desktop/ativ cap5/login.html
+	deleted:    Desktop/ativ cap5/paginainicial.html
+	deleted:    Desktop/ativ cap5/recursos.html
+	deleted:    Desktop/ativ_cap5/image/alimento.jpg
+	deleted:    Desktop/ativ_cap5/image/cabecalho.jpg
+	deleted:    Desktop/ativ_cap5/image/logo.png
+	deleted:    Desktop/ativ_cap5/image/pexels-cottonbro-4761352 - cópia.jpg
+	deleted:    Desktop/ativ_cap5/image/pexels-cottonbro-4761352.jpg
+	deleted:    Desktop/ativ_cap5/image/treino.jpg
+	deleted:    Desktop/ativ_cap5/image/treinofundo.jpg
+	deleted:    Desktop/ativ_cap5/inscrevase.html
+	deleted:    Desktop/ativ_cap5/login.html
+	deleted:    Desktop/ativ_cap5/paginainicial.html
+	deleted:    Desktop/ativ_cap5/recursos.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.Trash/
+	.aplicativoitau/
+	.bash_history
+	.bash_sessions/
+	.cache/
+	.eclipse/
+	.gitconfig
+	.idlerc/
+	.oracle_jre_usage/
+	.oraclesqldeveloperdatamodeler/
+	.p2/
+	.sqldeveloper/
+	.ssh/
+	.viminfo
+	.vscode/
+	Applications/
+	Desktop/Heath_ track/
+	Documents/
+	Downloads/
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Projeto/
+	Public/
+	PycharmProjects/
+	eclipse-workspace/
+	iCloud Drive (Arquivo) - 1/
+	iCloud Drive (Arquivo)/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+MacBook-Pro:~ Jessica$ git log
+commit 7fe719e2bfbbdbcdb5936cf9b901d1ac9659fe00 (HEAD -> main)
+Author: Jessica Gutierres <jgutierres1818@gmail.com>
+Date:   Thu Mar 10 22:49:13 2022 -0300
+
+    first commit
+
+commit 3bbcd327b4558fe1c3950c93c93f875c3ab293f4
+Author: Jessica Gutierres <jgutierres1818@gmail.com>
+Date:   Thu Mar 10 22:49:03 2022 -0300
+
+    first commit
+
+commit be0a62db4a8ae20975db6141ffad22c83b066736
+Author: Jessica Gutierres <jgutierres1818@gmail.com>
+Date:   Thu Mar 10 22:45:33 2022 -0300
+
+    first commit
+
+commit 107198f11be9aa114d7010fbcb80356b4ce0c2d7
+Author: Jessica <Jessica@MacBook-Pro.local>
+Date:   Thu Mar 10 21:45:15 2022 -0300
+
+    repositorio health track
+MacBook-Pro:~ Jessica$ 
+MacBook-Pro:~ Jessica$ git commit
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    Desktop/Projeto/contato.txt
+	deleted:    Desktop/Projeto/index.txt
+	deleted:    Desktop/Projeto/texto_teste.txt
+	deleted:    Desktop/ativ cap5/image/alimento.jpg
+	deleted:    Desktop/ativ cap5/image/cabecalho.jpg
+	deleted:    Desktop/ativ cap5/image/logo.png
+	deleted:    Desktop/ativ cap5/image/pexels-cottonbro-4761352 - cópia.jpg
+	deleted:    Desktop/ativ cap5/image/pexels-cottonbro-4761352.jpg
+	deleted:    Desktop/ativ cap5/image/treino.jpg
+	deleted:    Desktop/ativ cap5/image/treinofundo.jpg
+	deleted:    Desktop/ativ cap5/inscrevase.html
+	deleted:    Desktop/ativ cap5/login.html
+	deleted:    Desktop/ativ cap5/paginainicial.html
+	deleted:    Desktop/ativ cap5/recursos.html
+	deleted:    Desktop/ativ_cap5/image/alimento.jpg
+	deleted:    Desktop/ativ_cap5/image/cabecalho.jpg
+	deleted:    Desktop/ativ_cap5/image/logo.png
+	deleted:    Desktop/ativ_cap5/image/pexels-cottonbro-4761352 - cópia.jpg
+	deleted:    Desktop/ativ_cap5/image/pexels-cottonbro-4761352.jpg
+	deleted:    Desktop/ativ_cap5/image/treino.jpg
+	deleted:    Desktop/ativ_cap5/image/treinofundo.jpg
+	deleted:    Desktop/ativ_cap5/inscrevase.html
+	deleted:    Desktop/ativ_cap5/login.html
+	deleted:    Desktop/ativ_cap5/paginainicial.html
+	deleted:    Desktop/ativ_cap5/recursos.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.Trash/
+	.aplicativoitau/
+	.bash_history
+	.bash_sessions/
+	.cache/
+	.eclipse/
+	.gitconfig
+	.idlerc/
+	.oracle_jre_usage/
+	.oraclesqldeveloperdatamodeler/
+	.p2/
+	.sqldeveloper/
+	.ssh/
+	.viminfo
+	.vscode/
+	Applications/
+	Desktop/Heath_ track/
+	Documents/
+	Downloads/
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Projeto/
+	Public/
+	PycharmProjects/
+	eclipse-workspace/
+	iCloud Drive (Arquivo) - 1/
+	iCloud Drive (Arquivo)/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+MacBook-Pro:~ Jessica$ git add /Users/Jessica/Desktop/Heath_\ track 
+error: 'Desktop/Heath_ track/' does not have a commit checked out
+fatal: adding files failed
+MacBook-Pro:~ Jessica$ git add /Users/Jessica/Desktop/Heath_\ track/image /Users/Jessica/Desktop/Heath_\ track/inscrevase.html /Users/Jessica/Desktop/Heath_\ track/login.html /Users/Jessica/Desktop/Heath_\ track/paginainicial.html /Users/Jessica/Desktop/Heath_\ track/recursos.html 
+MacBook-Pro:~ Jessica$ 
